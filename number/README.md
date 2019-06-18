@@ -10,3 +10,21 @@
 19是奇数。
 20是偶数。
 ```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js9</title>
+</head>
+<body>
+<script>
+    for (var i=0;i<=20;i++){
+        if (i%2==0){
+            console.log(i+"是偶数")
+        } else {
+            console.log(i+"是奇数")
+        }
+    } 
+</script>
+</body>
+</html>
